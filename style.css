@@ -1,0 +1,19 @@
+/* Menghilangkan margin browser & membuat latar belakang */
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #fffaf5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Gaya teks ucapan ulang tahun */
+#greeting {
+  position: absolute;
+  top: 8%;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #c2185b;
+  text-shadow: 1px 2px 5px rgba(0,0,0,0.2);
+  z-index: 10;
+}
